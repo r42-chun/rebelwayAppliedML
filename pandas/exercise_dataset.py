@@ -33,7 +33,7 @@ print(legs_exercises[column_names_to_show])
 print("============================")
 first_row = legs_exercises.iloc[0]
 print(first_row)
-# Print first 3 rows, first 3 columns
+# Print first 2 rows, first 3 columns
 specific_row = legs_exercises.iloc[0:2,0:3]
 print("============================")
 print(specific_row)
