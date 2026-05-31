@@ -39,6 +39,13 @@ class a_star_pathfinding():
         self.open_list.clear()
         self.close_list = set()
 
+    def change_start_end(self, start, end):
+        self.start = start
+        self.end = end
+    
+    def change_maze(self, maze):
+        self.maze = maze
+
     def pathfind(self):
         """ Executes the a star pathfinding to find the best path from start to end
         """
